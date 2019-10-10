@@ -1,11 +1,11 @@
 //Inputs
 Geometry.Tolerance = 1e-12;
 
-rotorRadius = 8*0.0254; // m
+rotorRadius = 5*0.0254; // m
 domainDistance = 25*rotorRadius; // m
 
 rotorTipLc = 0.01*rotorRadius;
-rotorCenterLc = 4*rotorTipLc;
+rotorCenterLc = 0.5*rotorTipLc;
 farLc = 1.5*rotorRadius;
 
 wedgeAngle = 5*Pi/180;
@@ -59,6 +59,8 @@ Physical Surface("outlet") = {domainEntities[7]};
 
 Physical Volume("rotatingZone") = {domainEntities[9]};
 Physical Volume(1000) = {domainEntities[1]};
+
+
 
 
 

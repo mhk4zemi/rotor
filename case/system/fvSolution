@@ -50,8 +50,8 @@ relaxationFactors
 {
     equations
     {
-        U                     0.65;
-	"(p|k|omega|epsilon)" 0.95;
+        U                     0.5;
+	"(p|k|omega|epsilon)" 0.5;
     }
 }
 
